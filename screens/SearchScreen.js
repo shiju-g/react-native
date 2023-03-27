@@ -21,7 +21,7 @@ const SearchScreen = () => {
     const data = copy?.filter((item) => {
       return item.volumeInfo.title.toLowerCase().includes(text.toLowerCase());
     });
-    setFilteredData(data, ...books);
+    setFilteredData(data);
   };
 
   return (
