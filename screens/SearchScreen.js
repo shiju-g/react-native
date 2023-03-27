@@ -38,7 +38,7 @@ const SearchScreen = () => {
         />
       </View>
       <View className="bg-indigo-400 rounded-lg p-2">
-        <Text className="text-white font-bold text-lg ml-2">Lattest Books</Text>
+        <Text className="text-white font-bold text-lg ml-2">Books</Text>
         {filteredData?.map((item, index) => (
           <View
             className="flex flex-row rounded-lg  p-2 w-fit bg-white m-2  "
