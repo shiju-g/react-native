@@ -18,6 +18,7 @@ const App = () => {
         screenOptions={{ headerShown: false }}
         tabBarOptions={{
           activeTintColor: "orange",
+          keyboardHidesTabBar: true,
         }}
       >
         <Tab.Screen

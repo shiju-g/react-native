@@ -1,5 +1,12 @@
 import React from "react";
-import { View, Text, ScrollView, TextInput, Image } from "react-native";
+import {
+  View,
+  Text,
+  ScrollView,
+  TextInput,
+  Image,
+  KeyboardAvoidingView,
+} from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 import { useEffect, useState } from "react";
 
@@ -25,7 +32,7 @@ const SearchScreen = () => {
   };
 
   return (
-    <ScrollView className="bg-indigo-500">
+    <ScrollView className="bg-indigo-500 ">
       <Text className="px-3 py-2 text-xl text-indigo-500 font-bold text-center bg-white">
         Book Bin
       </Text>
